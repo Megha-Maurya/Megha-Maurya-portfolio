@@ -2,6 +2,8 @@
 
 :root { 
     --primary-color: #0ea5e9;
+    --gray-color: #6b7280;
+    --off-white: #e5e7eb;
 }
 
 body{
@@ -39,9 +41,7 @@ hr {
     border: 1px solid var(--primary-color);
     
 }
- .list {
-
- }
+ 
 
  .list-non-bullet {
     list-style: none;
@@ -64,7 +64,7 @@ hr {
     font-size: 1rem;
 }
 .navigation .nav-pills {
-    text-align: center;
+    text-align: right;
 }
 
 .navigation .link {
@@ -83,4 +83,38 @@ hr {
     max-width: 350px;
     display: block;
     margin: auto;
+} 
+
+.hero .hero-heading{
+    color: #6b7280;
+    text-align: center;
+}
+
+.hero .heading-title {
+    color: var(--primary-color);
+}
+
+.section{
+    padding:2rem;
+
+}
+
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    color: white;
+    padding: 2rem 1rem; 
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
 }
